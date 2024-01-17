@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+   
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header class="menu_container flex"> <!-- Cabeçalho da Página-->
+        <div class="menu_content">
+            <a href="#">Landing Page</a> 
+
+            <nav> <!-- Navegação - Menu -->
+                <ul class="menu_lista flex"> <!-- Lista Não Ordenada -->
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contate Me</a></li>                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main> <!-- Parte Principal da Página -->
+       <section id="home" class="home_container">
+        <article id="home-texto" class="home_content">  <!-- Adicione aqui as CLASSES -->
+        <article> <!-- Artigo, parte de uma Infomação Maior -->
+            <h4>Bem Vinde!</h4>
+            <h1>Diferentes mundos para diferentes pessoas</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae incidunt beatae reiciendis vero dolores rem saepe id delectus atque! Ipsa natus odio dicta! Dolorum architecto quas obcaecati aliquid! Illo, perferendis!</p>
+
+            <a class="btn" target="_blank" href="https://github.com/NayaneRosa">
+                Explorar</a>
+        </article>
+
+        <article>
+            <img scr="./assets/astronauta.svg" alt="Capacete de Austronauta Animado" />
+        </article>
+
+       </section> 
+
+       <secttion id="sobre" class="sobre_container">
+        <img scr="./https://avatars.githubusercontent.com/u/150282776?v=4" alt=" Foto do Perfil do GitHub - Nayane Rosa" />
+
+        <article id="sobre-texto">
+            <h2>Quem sou eu?</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem suscipit officia voluptatum soluta, non, rerum magnam tenetur optio veritatis quod eos ab aut. Tenetur unde in atque quia necessitatibus repellendus.</p>
+        </article>
+
+        <article>
+           <div id="sobre-github" class="sobre-github flex"
+              class="btn" target="_blank" href="https://github.com/NayaneRosa">
+                Github
+            </a>
+
+            <p> Seguidores</p>
+            <p> Repositórios</p>
+        </div>
+
+        </article>
+
+       </secttion>
+
+       <section id="contato"> <!-- Sessão da área de Contato-->
+
+        <article> 
+            <h4>Me Contate</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident reprehenderit at repellat tenetur praesentium ea odio, commodi, tempore totam facilis recusandae quo sit beatae nam culpa nisi voluptatibus officia eum.</p>
+
+            <div> <!-- Icones das Redes Sociais-->
+
+                <a href="" target=""_blank>
+                    <img src="./assets/linkedin.svg" alt="Logo do Linkedin" />
+                </a>
+
+                <a href="" target=""_blank>
+                    <img src="https://icons8.com/icon/12598/github" alt="Logo do Github" />
+                </a>
+
+                <a href="" target=""_blank>
+                    <img src="https://icons8.com/icon/32292/instagram" alt="Logo do Instagram" />
+                </a>
+
+            </div>
+
+        </article>
+
+        <form>
+            <label>Nome:</label>
+            <input type="text" name="nome" placeholder="Digite o seu nome" required />
+
+            <label>Email:</label>
+            <input type="email" nome="email" placeholder="Digite o seu email" required />
+
+            <label>Assunto:/</label>
+            <input type="text" name="assunto" placeholder="Digite o assunto da mensagem" required />
+
+            <label>Mensagem:/</label>
+            <textarea name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+
+            <button class="btn" type="submit">Enviar</button>
+        </form>
+
+       </section>
+
+    </main>
+
+    <footer> <!-- Rodapé -->
+        Projeto feito por Nayane 🌹- 2024
+    </footer>
+
+</body>
+
+</html>
